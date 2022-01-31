@@ -10,9 +10,9 @@ while True: # Повторяем код
             o = e - l # Вычитаем
         elif b == '/':
             o = e / l # Делим
-        elif b =='*':
+        elif b == '*':
             o = e * l # Умножаем
-        elif b =='%': 
+        elif b == '%': 
             o = e /100 * l # Проценты
         print (e,b,l,'=',o) # Выводим все в консоль
     except:
